@@ -1,0 +1,9 @@
+Python 3.7+
+
+TensorFlow or PyTorch (for FaceNet model)
+
+MTCNN
+
+Scikit-learn
+
+NumPy, OpenCV, Matplotlib
