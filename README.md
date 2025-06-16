@@ -61,17 +61,15 @@ Model Generalization: Excellent performance even on unseen poses and lighting
 
 git clone https://github.com/AbhaySingh032/Face-Recognition-System.git
 
-cd face-recognition-facenet-svm
+cd Face-Recognition-System/model_training
 
 **Install dependencies**
+
 pip install -r requirements.txt
 
 **Run the training script**
+
 python train.py
-
-**Run recognition on test images**
-
-python predict.py --img_path path/to/image.jpg
 
 
 # 📦 Requirements
@@ -105,17 +103,6 @@ face-recognition/
 ├── predict.py
 
 └── README.md
-
-
-# 🛠️ Future Improvements
-
-Add real-time webcam integration
-
-Enable face clustering for unknown identities
-
-Convert to web app (Flask/Streamlit)
-
-Extend support to video-based recognition
 
 
 # 👤 Author
